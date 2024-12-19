@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spoons Arcade</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"> <!-- Add your favicon here -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.redd.it/i-recreated-one-of-the-ai-generated-frutiger-aero-v0-ck5tek31ez7a1.png?width=1920&format=png&auto=webp&s=41098137ab8ca89e22efa3cced3fd6abe52a412f');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 5em;
+            color: white;
+            margin-top: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .button-group {
+            margin-top: 20px;
+        }
+        button {
+            background-color: #ff0000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        button:hover {
+            background-color: #cc0000;
+        }
+        .game-section {
+            margin-top: 50px;
+        }
+        .game-title {
+            font-size: 2em;
+            color: white;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .download-button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .download-button:hover {
+            background-color: #218838;
+        }
+        .download-icon {
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Spoons Arcade</h1>
+    <!-- YouTube and About Buttons -->
+    <div class="button-group">
+        <button onclick="window.open('https://youtube.com/@spoon1606?si=iedON2PFVYL4v9z_', '_blank')">YouTube</button>
+        <button onclick="window.location.href='Spoon Arcade2.html'">About</button>
+    </div>
+    
+    <!-- Game Section -->
+    <div class="game-section">
+        <div class="game-title">Games</div>
+        <div class="game-title">Shoot A Zombie To Save Shrek</div>
+        <button class="download-button" onclick="window.location.href='Shoot%20A%20Zombie%20To%20Save%20Shrek.exe'" download>
+            <span>Download Game</span>
+            <img src="download-icon.png" alt="Download Icon" class="download-icon">
+        </button>
+    </div>
+</body>
+</html>
